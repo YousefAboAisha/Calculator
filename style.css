@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    position: relative;
+    margin-top: 20px;
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.calc {
+    margin: 0 auto;
+    width: 360px;
+    background-color: rgba(231, 231, 231, 0.692);
+    height: 470px;
+    border-radius: 10px;
+    border: 2px solid rgba(26, 51, 23, 0.13);
+    box-shadow: 2px 2px 15px rgba(131, 168, 126, 0.664);
+    outline: none;
+    padding: 15px;
+}
+
+.calc input {
+    display: block;
+    width: 95%;
+    background-color: rgba(35, 90, 30, 0.582);
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 15px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+:disabled, ::placeholder{
+    font-weight: 750;
+    color: rgb(37, 37, 37);
+}
+
+::placeholder{
+    font-weight: 750;
+    color: rgba(37, 37, 37, 0.822);
+}
+
+
+.calc i {
+    position: absolute;
+    transform: translate(280px,-40px);
+    font-size: 23px;
+    cursor: pointer;
+    color:rgba(42, 51, 40, 0.822);
+}
+
+.calc .keybord {
+    display: flex;
+    flex-flow: row wrap;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    height:75%;
+}
+
+.calc .keybord button {
+    flex: 1 0 17%;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 1px;
+    border-radius: 15px;
+    outline: none;
+    border: 1px solid #DDD;
+    box-shadow: 1px 1px 5px rgb(87, 114, 84);
+    margin: 5px;
+    cursor: pointer;
+}
+
+.calc .keybord button:focus {
+    box-shadow: 1px 1px 10px rgba(19, 58, 15, 0.801);
+}
+
+.clr {
+    background-color: rgba(41, 85, 37, 0.178);
+}
+
+#equal{
+    font-size: 22px;
+    box-shadow: 1px 1px 10px rgb(19, 58, 15);
+    border:none;
+    outline: none;
+}
