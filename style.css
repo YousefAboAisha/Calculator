@@ -100,10 +100,3 @@ a {
 .clr {
     background-color: rgba(41, 85, 37, 0.178);
 }
-
-#equal{
-    font-size: 22px;
-    box-shadow: 1px 1px 10px rgb(19, 58, 15);
-    border:none;
-    outline: none;
-}
